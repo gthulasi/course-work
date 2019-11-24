@@ -1,0 +1,7 @@
+sudoku_x:
+Naive backtracking approach is a slight modification to the code at the below link to make it work for diagonal sudoku
+
+https://www.geeksforgeeks.org/sudoku-backtracking-7/
+
+sudoku_x_sets:
+Ordered backtracking approach minimises the expansion of backtracking tree, by trying to solve the unassigned entries in the order of the number of possibilities, from low to high. It needs some book-keeping(column/row/box/diagonal/anti-diagonal used masks) to quickly compute number of possibilities for an unassigned entry.
